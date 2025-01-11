@@ -31,3 +31,5 @@ venv
 
 # Generated pycache
 __pycache__
+
+deploy/
