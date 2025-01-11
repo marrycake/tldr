@@ -33,3 +33,7 @@ venv
 __pycache__
 
 deploy/
+
+tldr.zip
+
+tldr-pages.zip
