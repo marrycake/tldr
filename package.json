@@ -6,6 +6,7 @@
   "repository": "tldr-pages/tldr",
   "homepage": "https://tldr.sh/",
   "dependencies": {
+    "archiver": "^7.0.1",
     "glob": "11.0.3",
     "markdownlint-cli": "^0.45.0",
     "tldr-lint": "^0.0.19"
@@ -18,7 +19,8 @@
     "lint-tldr-pages": "tldr-lint ./pages",
     "test": "bash scripts/test.sh",
     "build-index": "node ./scripts/build-index.js > index.json",
-    "prepare": "husky"
+    "prepare": "husky",
+    "pack": "npm run build-index && node ./scripts/zip.js"
   },
   "private": true
 }
