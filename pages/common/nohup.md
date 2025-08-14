@@ -18,3 +18,7 @@
 - Run a process and write the output to a specific file:
 
 `nohup {{command}} {{argument1 argument2 ...}} > {{path/to/output_file}} &`
+
+- Run a process and write the output to /dev/null:
+
+`nohup {{command}} {{argument1 argument2 ...}} > /dev/null 2>&1 &`
