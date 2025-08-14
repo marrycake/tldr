@@ -1,11 +1,12 @@
 # fadvise
 
 > Control Linux file caching behavior.
+> See also: `fincore`.
 > More information: <https://manned.org/fadvise>.
 
-- Preload a file into cache:
+- Preload a file or directory into cache:
 
-`fadvise {{-a|--advice}} willneed {{path/to/file}}`
+`fadvise {{[-a|--advice]}} willneeded {{path/to/file_or_directory}}`
 
 - Suggest dropping a file from cache:
 
@@ -13,4 +14,4 @@
 
 - Display help:
 
-`fadvise --help`
+`fadvise {{[-h|--help]}}`

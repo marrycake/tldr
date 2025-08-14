@@ -1,7 +1,7 @@
 # st
 
 > A simple terminal emulator for the X Window System.
-> More information: <https://st.suckless.org>.
+> More information: <https://manned.org/st>.
 
 - Open a terminal:
 
@@ -17,8 +17,8 @@
 
 - Increase/decrease the font size:
 
-`<Ctrl> + <Shift> + {{Page Up|Page Down}}`
+`<Ctrl Shift {{PageUp|PageDown}}>`
 
 - Copy/paste from the clipboard:
 
-`<Ctrl> + <Shift> + {{C|V}}`
+`<Ctrl Shift {{c|v}}>`

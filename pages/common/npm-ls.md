@@ -1,7 +1,7 @@
 # npm ls
 
 > Print installed packages to `stdout`.
-> More information: <https://docs.npmjs.com/cli/commands/npm-ls>.
+> More information: <https://docs.npmjs.com/cli/npm-ls>.
 
 - Print all versions of direct dependencies to `stdout`:
 
@@ -9,15 +9,15 @@
 
 - Print all installed packages including peer dependencies:
 
-`npm ls --all`
+`npm ls {{[-a|--all]}}`
 
 - Print dependencies with extended information:
 
-`npm ls --long`
+`npm ls {{[-l|--long]}}`
 
 - Print dependencies in parseable format:
 
-`npm ls --parseable`
+`npm ls {{[-p|--parseable]}}`
 
 - Print dependencies in JSON format:
 

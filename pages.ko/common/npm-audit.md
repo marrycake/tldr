@@ -14,7 +14,7 @@
 
 - 취약점을 가진 의존성을 강제로 자동 수정:
 
-`npm audit fix {{-f|--force}}`
+`npm audit fix {{[-f|--force]}}`
 
 - `node_modules` 디렉터리를 수정하지 않고 lock 파일 업데이트:
 
@@ -30,4 +30,4 @@
 
 - 특정 심각도 이상의 취약점에서만 실패하도록 감사 구성:
 
-`npm audit --audit-level={{info|low|moderate|high|critical}}`
+`npm audit --audit-level {{info|low|moderate|high|critical}}`

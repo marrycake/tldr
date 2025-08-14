@@ -13,12 +13,12 @@
 
 - Start een talk-sessie met een gebruiker op een externe machine:
 
-`talk {{gebruikersnaam}}@{{hostname}}`
+`talk {{gebruikersnaam}}@{{hostnaam}}`
 
 - Wis tekst op beide terminals:
 
-`<Ctrl>+D`
+`<Ctrl d>`
 
 - Verlaat de talk-sessie:
 
-`<Ctrl>+C`
+`<Ctrl c>`

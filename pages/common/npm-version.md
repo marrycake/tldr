@@ -1,7 +1,7 @@
 # npm version
 
 > Bump a node package version.
-> More information: <https://docs.npmjs.com/cli/commands/npm-version>.
+> More information: <https://docs.npmjs.com/cli/npm-version>.
 
 - Check current version:
 
@@ -21,4 +21,4 @@
 
 - Bump the major version with a custom commit message:
 
-`npm version major -m "{{Upgrade to %s for reasons}}"`
+`npm version major {{[-m|--message]}} "{{Upgrade to %s for reasons}}"`

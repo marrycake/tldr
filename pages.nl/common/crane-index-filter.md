@@ -13,8 +13,8 @@
 
 - Tag die toegepast moet worden op de resulterende image:
 
-`crane index filter {{-t|--tags}} {{tag_naam}}`
+`crane index filter {{[-t|--tags]}} {{tag_naam}}`
 
-- Toon help:
+- Toon de help:
 
-`crane index filter {{-h|--help}}`
+`crane index filter {{[-h|--help]}}`

@@ -4,7 +4,7 @@
 > Reports vulnerabilities and suggests remediation.
 > More information: <https://docs.npmjs.com/cli/npm-audit>.
 
-- Scan the project’s dependencies for known vulnerabilities:
+- Scan the project's dependencies for known vulnerabilities:
 
 `npm audit`
 
@@ -14,7 +14,7 @@
 
 - Force an automatic fix to dependencies with vulnerabilities:
 
-`npm audit fix {{-f|--force}}`
+`npm audit fix {{[-f|--force]}}`
 
 - Update the lock file without modifying the `node_modules` directory:
 
@@ -30,4 +30,4 @@
 
 - Configure the audit to only fail on vulnerabilities above a specified severity:
 
-`npm audit --audit-level={{info|low|moderate|high|critical}}`
+`npm audit --audit-level {{info|low|moderate|high|critical}}`

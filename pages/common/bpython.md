@@ -14,8 +14,8 @@
 
 - Execute a specific Python file and start a REPL:
 
-`bpython --interactive {{path/to/file.py}}`
+`bpython {{[-i|--interactive]}} {{path/to/file.py}}`
 
-- Use the specified [c]onfig file instead of the default config:
+- Use the specified configuration file instead of the default configuration:
 
 `bpython --config {{path/to/file.conf}}`

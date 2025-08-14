@@ -1,7 +1,8 @@
 # ulimit
 
-> Get and set user limits.
-> More information: <https://manned.org/ulimit>.
+> Get and set resource limits for user processes.
+> It is a shell builtin hence not shell-agnostic.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-ulimit>.
 
 - Get the properties of all the user limits:
 
@@ -18,3 +19,7 @@
 - Set max per-user process limit:
 
 `ulimit -u 30`
+
+- Display help (Bash only):
+
+`help ulimit`

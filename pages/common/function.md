@@ -10,3 +10,11 @@
 - Run a function named `func_name`:
 
 `func_name`
+
+- Define a function without the `function` keyword:
+
+`{{func_name}}() { {{echo "Function contents here"}}; }`
+
+- Display help:
+
+`help function`

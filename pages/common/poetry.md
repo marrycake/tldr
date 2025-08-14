@@ -16,7 +16,7 @@
 
 `poetry install`
 
-- Interactively initialize the current directory as a new Poetry project:
+- Interactively (append `-n` for non-interactively) initialize the current directory as a new Poetry project:
 
 `poetry init`
 
@@ -32,6 +32,6 @@
 
 `poetry version {{patch|minor|major|prepatch|preminor|premajor|prerelease}}`
 
-- Spawn a shell within the project's virtual environment:
+- Spawn a shell within the project's virtual environment (for versions below 2.0, use `poetry shell`):
 
-`poetry shell`
+`eval "$(poetry env activate)"`

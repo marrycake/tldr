@@ -10,8 +10,8 @@
 
 - Wijzig een image-index met subcommando:
 
-`crane index {{subcommand}}`
+`crane index {{subcommando}}`
 
-- Toon help:
+- Toon de help:
 
-`crane index {{-h|--help}}`
+`crane index {{[-h|--help]}}`

@@ -29,8 +29,8 @@
 
 - List all service/socket/automount units filtering by running/failed state:
 
-`systemctl list-units --type={{service|socket|automount}} --state={{failed|running}}`
+`systemctl list-units {{[-t|--type]}} {{service|socket|automount}} --state {{failed|running}}`
 
-- Show the contents & absolute path of a unit file:
+- Show the contents & absolute path of a unit file or edit it:
 
-`systemctl cat {{unit}}`
+`systemctl {{cat|edit}} {{unit}}`

@@ -1,7 +1,7 @@
 # tee
 
 > Lee desde la entrada estándar (`stdin`) y escribe a la salida estándar (`stdout`) y a archivos (o comandos).
-> Más información: <https://www.gnu.org/software/coreutils/tee>.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/tee-invocation.html>.
 
 - Copia la entrada estándar (`stdin`) a cada archivo, y también a la salida estándar (`stdout`):
 
@@ -9,7 +9,7 @@
 
 - Anexa a los archivos específicos, sin sobreescribir:
 
-`echo "ejemplo" | tee -a {{ruta/al/archivo}}`
+`echo "ejemplo" | tee {{[-a|--append]}} {{ruta/al/archivo}}`
 
 - Imprime la entrada estándar a la terminal, y también lo reenvía a otro programa para posterior procesamiento:
 
